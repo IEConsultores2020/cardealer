@@ -1,0 +1,92 @@
+Description Challenge.
+
+Note: Down you can view my comments.
+
+Please create a small Ruby on Rails application that can do basic inventory management for a car dealership manager (the user). We will not be judging based on front-end appearance only functionality and best practices, there’s no need to include a front-end framework. We expect a simple setup for the database and server, this is intended to be a short exercise for discussion during your interview.
+
+Exercise time: 2 hours maximum
+
+You might not complete all the specifications in the allotted time.
+
+Specifications:
+
+    Users can log in and can have type “user” or “admin”
+
+    Users can view the inventory of cars and their details
+
+    “Admin” users can add and delete cars from the inventory
+
+    Cars
+
+        Have a monetary price. The price depreciates 2% every month.
+
+        Can be new or used
+
+    Cars are located at a dealership, there may be multiple dealerships
+
+    Please include at least two tests
+
+        You may choose which kind of tests to write (unit, integration...)
+
+
+Once you complete the exercise, please store it in a Github repository and send me a link to it. Please include documentation to run your project on a local machine.
+
+
+By: Alberto Sanchez
+Talent Acquisition Specialist
+o.  8120994109
+e.  alberto.sanchez@sonatafy.com
+w. Sonatafy.com 
+Please create a small Ruby on Rails application that can do basic inventory management for a car dealership manager (the user). We will not be judging based on front-end appearance only functionality and best practices, there’s no need to include a front-end framework. We expect a simple setup for the database and server, this is intended to be a short exercise for discussion during your interview.
+
+Exercise time: 2 hours maximum
+
+You might not complete all the specifications in the allotted time.
+
+Specifications:
+
+    Users can log in and can have type “user” or “admin”
+
+    Users can view the inventory of cars and their details
+
+    “Admin” users can add and delete cars from the inventory
+
+    Cars
+
+        Have a monetary price. The price depreciates 2% every month.
+
+        Can be new or used
+
+    Cars are located at a dealership, there may be multiple dealerships
+
+    Please include at least two tests
+
+        You may choose which kind of tests to write (unit, integration...)
+
+
+Once you complete the exercise, please store it in a Github repository and send me a link to it. Please include documentation to run your project on a local machine.
+
+
+By: Alberto Sanchez
+Talent Acquisition Specialist
+o.  8120994109
+e.  alberto.sanchez@sonatafy.com
+w. Sonatafy.com 
+
+
+----
+Notes by Fernando Torres
+
+The challenge is open to developing than wide or small that every person considers the project.
+Problems:
+My technological resources failed when I began the challenge, which was approximately one week to stabilize many options of HW and SW. Nevertheless from the beginning, I build the basics of the project.
+I try to implement it basically with docker but we had a problem with authentication with the gem Devise because the gem Bcrypt doesn't was possible to install into the container and I don't found documentation that solved this problem. Probably was because I use ruby 2.7 and rails 4.2. Then I decided to download a prebuild MV Centos 9 Stream from osboxes.org and install all the required software.
+
+The consumed time for the project was significantly more than two hours, I consider twelve (12) hours.
+
+Was created scaffold and tables in database from four entities: Users, Roles, Dealerships, Cars.
+
+Was implemented unitary probes for the four entities.
+Was implemented robes for the authentication system with gem Devise.
+
+Today 2022/11/01 I send my proposal of the project for consideration of Sonatafy, and I appreciate all your observations.

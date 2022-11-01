@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+useruser:
+  name: "useruser"
+  email: "onemail@yahoo.com"
+  role: roleuser
+
+useradmin:  
+  name: "useradmin"
+  email: "twomail@yahoo.com"
+  role: roleadmin

@@ -1,0 +1,18 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+carone:
+  name: Car1
+  price: 9.99
+  model: 2022
+  category: "Used"
+  dealership: done
+  depreciation: 0
+  user: useradmin
+cartwo:
+  name: Car2
+  price: 9.99
+  category: "New"
+  model: 2020
+  dealership: dtwo
+  depreciation: 0
+  user: useradmin

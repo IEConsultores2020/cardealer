@@ -1,0 +1,12 @@
+<p style="color: green"></p>
+
+<h1>Dealerships</h1>
+
+  <% @dealerships.each do |dealership| %>
+    <%= render dealership %>
+    <p>
+      <%= link_to "Show this dealership", dealership %>
+    </p>
+  <% end %>
+
+<%= link_to "New dealership", new_dealership_path %>
